@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin-page.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>The Best/My Admin</title>
+</head>
+
+<body>
+    <!-- start left-side -->
+    <div class="left-side">
+        <i class="fas fa-times" id="menu-close"></i>
+        <div class="text">
+            <a href="index.html" class="logo">The Best</a>
+            <span class="border"></span>
+            <div class="details">
+                <i class="far fa-user user"></i>
+                <div class="content">
+                    <span>Admin</span>
+                    <h3>John Doe</h3>
+                </div>
+                <i class="fas fa-sign-out-alt logout"></i>
+                <span class="border-2"></span>
+            </div>
+            <ul class="links">
+                <li class="active">
+                    <i class="fas fa-home"></i>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <i class="fab fa-buromobelexperte"></i>
+                    <a href="#">Catalog</a>
+                </li>
+                <li>
+                    <i class="fas fa-user-friends"></i>
+                    <a href="#">Users</a>
+                </li>
+                <li>
+                    <i class="far fa-comment-dots"></i>
+                    <a href="#">Comments</a>
+                </li>
+                <li>
+                    <i class="far fa-star"></i>
+                    <a href="#">Reviews</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end left-side -->
+    <div class="container">
+        <div class="icon">
+            <i class="fas fa-align-left" id="main-btn"></i>
+        </div>
+        <div class="header">
+            <h2>Dashboard</h2>
+            <a href="#">Add Item</a>
+        </div>
+        <div class="data">
+            <div class="img-container">
+                <div class="box">
+                    <div class="text">
+                        <p>Unique views this month</p>
+                        <div class="content">
+                            <p>5675</p>
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <p>Items added this month</p>
+                        <div class="content">
+                            <p>5675</p>
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <p>New comments</p>
+                        <div class="content">
+                            <p>5675</p>
+                            <i class="far fa-comment-dots"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <p>New reviews</p>
+                        <div class="content">
+                            <p>5675</p>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container-2">
+                <div class="box">
+                    <div class="text">
+                        <h2><i class="far fa-chart-bar"></i> Top items</h2>
+                        <div class="btn">
+                            <a href="#">view All</a>
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>CATEGORY</th>
+                            <th>RATING</th>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Stranger Things</td>
+                            <td>Movie</td>
+                            <td>
+                                <i class="far fa-star"></i>
+                                9.2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">The Matrix</td>
+                            <td>Movie</td>
+                            <td>
+                                <i class="far fa-star"></i>
+                                8.2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Nobody</td>
+                            <td>Movie</td>
+                            <td>
+                                <i class="far fa-star"></i>
+                                7.6
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Venom</td>
+                            <td>Movie</td>
+                            <td>
+                                <i class="far fa-star"></i>
+                                8.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Taken</td>
+                            <td>Movie</td>
+                            <td>
+                                <i class="far fa-star"></i>
+                                7.8
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h2><i class="fas fa-border-all"></i> Latest items</h2>
+                        <div class="btn">
+                            <a href="#">view All</a>
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>CATEGORY</th>
+                            <th>STATUS</th>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Spider Man</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">The Matrix</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Nobody</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Venom</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Taken</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="img-container-2 space">
+                <div class="box">
+                    <div class="text">
+                        <h2><i class="fas fa-users"></i> Latest users</h2>
+                        <div class="btn">
+                            <a href="#">view All</a>
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>CATEGORY</th>
+                            <th>USERNAME</th>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">John Wick</td>
+                            <td>Movie</td>
+                            <td>
+                                BrianXWZ
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">The Matrix</td>
+                            <td>Movie</td>
+                            <td>
+                                Jesse.P
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Nobody</td>
+                            <td>Movie</td>
+                            <td>
+                                Matty
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Venom</td>
+                            <td>Movie</td>
+                            <td>
+                                Harper123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Taken</td>
+                            <td>Movie</td>
+                            <td>
+                                Jonathan
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h2><i class="far fa-star"></i> Latest reviews</h2>
+                        <div class="btn">
+                            <a href="#">view All</a>
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>CATEGORY</th>
+                            <th>RATING</th>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">The Revenant</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">The Matrix</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Nobody</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Venom</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>225</td>
+                            <td class="active">Taken</td>
+                            <td>Movie</td>
+                            <td class="green">
+                                Visible
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        $('#main-btn').click(function () {
+            $('.left-side').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('.left-side').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>

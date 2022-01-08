@@ -383,7 +383,7 @@ body::-webkit-scrollbar-thumb {
   display: block;
   cursor: pointer;
   margin: 40px auto;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .landing .container .image .img-4 {
   width: 170px;
